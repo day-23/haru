@@ -24,7 +24,7 @@ jobs:
         git submodule update --remote --recursive
     - name: Set Now Variable
       id: set-now-variable
-      run: echo "NOW=`TZ=":Asia/Seoul" date +'%Y-%m-%d %H:%M:%S%z'`" >> $GITHUB_OUTPUT
+      run: echo "NOW=`TZ=":Asia/Seoul" date +'%Y-%m-%d %H:%M:%S %z'`" >> $GITHUB_OUTPUT
     - name: Commit update
       run: |
         git config --global user.name 'Git bot'
