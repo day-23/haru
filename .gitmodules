@@ -1,0 +1,9 @@
+[submodule "ios"]
+	path = ios
+	url = https://github.com/day-23/haru-ios.git
+[submodule "android"]
+	path = android
+	url = https://github.com/day-23/haru-android.git
+[submodule "server"]
+	path = server
+	url = https://github.com/day-23/haru-server.git
