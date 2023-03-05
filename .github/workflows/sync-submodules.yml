@@ -27,4 +27,4 @@ jobs:
         git config --global user.name 'Git bot'
         git config --global user.email 'bot@noreply.github.com'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        git commit -am "Auto updated submodule references on `date +'%Y-%m-%d %H:%M:%S'`" && git push || echo "No changes to commit"
+        git commit -am "Auto updated submodule references on `TZ=":Asia/Seoul" date +'%Y-%m-%d %H:%M:%S%z`" && git push || echo "No changes to commit"
