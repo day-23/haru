@@ -21,6 +21,7 @@ jobs:
     - name: Git Sumbodule Update
       run: |
         git pull --recurse-submodules
+        git submodule update --init --recursive
         git submodule update --remote --recursive
     - name: Set Now Variable
       id: set-now-variable
