@@ -20,7 +20,8 @@ jobs:
         submodules: true
     - name: Git Sumbodule Update
       run: |
-        git pull --recurse-submodules
+        git clone --recurse-submodules https://github.com/day-23/haru.git
+        # git pull --recurse-submodules
         git submodule update --init --recursive
         git submodule update --remote --recursive
     - name: Set Now Variable
