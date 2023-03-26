@@ -7,6 +7,3 @@
 [submodule "android"]
 	path = android
 	url = https://github.com/day-23/haru-android.git
-[submodule "android/haru"]
-	path = android/haru
-	url = https://github.com/day-23/haru.git
