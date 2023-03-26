@@ -5,5 +5,5 @@
 	path = server
 	url = https://github.com/day-23/haru-server.git
 [submodule "android"]
-    path = android
-    url = https://github.com/day-23/haru-android.git
+	path = android
+	url = https://github.com/day-23/haru-android.git
